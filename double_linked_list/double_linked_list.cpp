@@ -13,5 +13,14 @@ public:
 class Doublelinkedlist {
 private:
 	Node* START;
+public:
 
+	Doublelinkedlist();
+	void addNode();
+	bool search(int rollNo, Node** previous, Node** current);
+	bool listEmpty();
+	void ascending();
+	void descending();
+	void hapus();
+	void searchData();
 };
