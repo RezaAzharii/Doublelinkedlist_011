@@ -18,6 +18,7 @@ public:
 	Doublelinkedlist();
 	void addNode();
 	bool search(int rollNo, Node** previous, Node** current);
+	bool deleteNode(int rollNo);
 	bool listEmpty();
 	void ascending();
 	void descending();
